@@ -29,5 +29,4 @@ public class Student {
 		return "Student [id=" + id + ", name=" + name + ", course=" + course + "]";
 	}
 	
-	
 }

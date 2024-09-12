@@ -20,6 +20,7 @@ public class MyController {
 		return "home";
 	}
 	
+	//http://localhost:8080/home1?name=Radha
 	@GetMapping("/home1")
 	public ModelAndView home1(@RequestParam("name") String myName) {
 		System.out.println("this is home1() controller_");
