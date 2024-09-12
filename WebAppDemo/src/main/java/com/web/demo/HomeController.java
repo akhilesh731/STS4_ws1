@@ -16,6 +16,11 @@ public class HomeController {
 		mv.setViewName("home");
 		return mv;
 	}
+	@GetMapping("/home1")
+	public String home1() {
+		System.out.println("home1()");
+		return "home1";
+	}
 }
 
 //http://localhost:8080/home?name=Navin

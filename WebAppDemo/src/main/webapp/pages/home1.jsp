@@ -4,11 +4,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>home page</title>
+<title>home1 page</title>
 </head>
 <body>
-<p>this is home page.<br>
-	<a href="home1">click here</a>
-welcome ${name }
+<p>welcome to home1 page.<br>
+	
 </body>
 </html>
